@@ -26,6 +26,7 @@ public class ToolEntity {
     @Column(unique = true)
     private String tagId; // BLEタグ（MACアドレスやUUIDなど）
 
+    @Builder.Default
     @Column(nullable = false)
     private String status = "available"; // available / borrowed / damaged など
 
@@ -44,5 +45,6 @@ public class ToolEntity {
     private Double currentLat;
     private Double currentLng;
 
+    @Builder.Default
     private boolean deleted = false; // 論理削除
 }

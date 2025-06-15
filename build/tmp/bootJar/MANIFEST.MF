@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Main-Class: com.example.toolmanager.ToolManagerApplication
+Start-Class: com.example.toolmanager.ToolManagerApplication
+Spring-Boot-Version: 3.2.5
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Spring-Boot-Classpath-Index: BOOT-INF/classpath.idx
+Spring-Boot-Layers-Index: BOOT-INF/layers.idx
+Build-Jdk-Spec: 21
+Implementation-Title: tool-manager
+Implementation-Version: 0.0.1-SNAPSHOT
+
